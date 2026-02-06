@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiservicios Corey | Experto en Tecnología</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        html { scroll-behavior: smooth; }
+        body { background: #0f172a; color: white; font-family: 'Inter', sans-serif; margin: 0; padding: 0; }
+        .glass { background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); }
+        section { padding-top: 100px; min-height: 85vh; width: 100%; }
+    </style>
+</head>
+<body>
+
+    <nav class="fixed top-0 w-full z-50 glass">
+        <div class="p-4 flex justify-between items-center max-w-6xl mx-auto">
+            <h1 class="text-lg font-bold text-blue-400 uppercase tracking-tighter">Multiservicios Corey</h1>
+            <div class="flex gap-4 md:gap-6 text-[10px] md:text-sm font-bold uppercase">
+                <a href="#inicio" class="hover:text-blue-400 transition">Inicio</a>
+                <a href="#servicios" class="hover:text-blue-400 transition">Servicios</a>
+                <a href="#galeria" class="hover:text-blue-400 transition">Galería</a>
+                <a href="#contacto" class="hover:text-blue-400 transition">Contacto</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="inicio" class="flex flex-col justify-center items-center text-center px-6">
+        <h2 class="text-5xl md:text-7xl font-extrabold mb-6 leading-tight">Infraestructura <br><span class="text-blue-500">Tecnológica</span></h2>
+        <p class="text-gray-400 text-lg max-w-2xl">Diseño y construcción de redes FTTx, Seguridad Electrónica y Control de Acceso profesional.</p>
+        <div class="mt-10">
+            <a href="#servicios" class="bg-blue-600 px-10 py-4 rounded-full font-bold hover:bg-blue-700 transition shadow-lg shadow-blue-500/20">Ver especialidades</a>
+        </div>
+    </section>
+
+    <section id="servicios" class="px-6 max-w-6xl mx-auto">
+        <h3 class="text-3xl font-bold mb-12 text-center text-blue-400">Nuestras Soluciones</h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="glass p-8 rounded-2xl border-b-4 border-blue-500 text-center">
+                <i class="fa-solid fa-network-wired text-4xl mb-4 text-blue-500"></i>
+                <h4 class="font-bold text-xl">Redes FTTx</h4>
+                <p class="text-sm text-gray-400 mt-2">Construcción y mantenimiento profesional de fibra óptica de última milla.</p>
+            </div>
+            <div class="glass p-8 rounded-2xl border-b-4 border-blue-500 text-center">
+                <i class="fa-solid fa-video text-4xl mb-4 text-blue-500"></i>
+                <h4 class="font-bold text-xl">Seguridad CCTV</h4>
+                <p class="text-sm text-gray-400 mt-2">Sistemas de videovigilancia de alta resolución con acceso remoto total.</p>
+            </div>
+            <div class="glass p-8 rounded-2xl border-b-4 border-blue-500 text-center">
+                <i class="fa-solid fa-fingerprint text-4xl mb-4 text-blue-500"></i>
+                <h4 class="font-bold text-xl">Control de Acceso</h4>
+                <p class="text-sm text-gray-400 mt-2">Sistemas biométricos y cerraduras inteligentes para empresas y hogares.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeria" class="px-6 max-w-6xl mx-auto text-center">
+        <h3 class="text-3xl font-bold mb-12 text-blue-400">Galería de Proyectos</h3>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div class="h-48 bg-slate-800 rounded-xl flex items-center justify-center border border-gray-700 text-xs font-bold uppercase tracking-widest text-gray-500">Redes</div>
+            <div class="h-48 bg-slate-800 rounded-xl flex items-center justify-center border border-gray-700 text-xs font-bold uppercase tracking-widest text-gray-500">Fibra</div>
+            <div class="h-48 bg-slate-800 rounded-xl flex items-center justify-center border border-gray-700 text-xs font-bold uppercase tracking-widest text-gray-500">Cámaras</div>
+            <div class="h-48 bg-slate-800 rounded-xl flex items-center justify-center border border-gray-700 text-xs font-bold uppercase tracking-widest text-gray-500">Sistemas</div>
+        </div>
+        <p class="mt-6 text-gray-500 italic text-sm">Ejecución de proyectos bajo estándares internacionales.</p>
+    </section>
+
+    <section id="contacto" class="px-6 max-w-4xl mx-auto text-center pb-20">
+        <h3 class="text-3xl font-bold mb-8 text-blue-400 uppercase tracking-widest">Contacto</h3>
+        <div class="glass p-12 rounded-[3rem] border border-blue-500/20 shadow-2xl">
+            <h4 class="text-2xl font-bold mb-2 text-white">Rafael Correa</h4>
+            <p class="text-blue-400 font-medium mb-6 text-sm uppercase tracking-widest italic">Experto en Redes, Seguridad y Tecnología</p>
+            
+            <p class="text-gray-400 mb-10 font-medium">
+                <i class="fa-solid fa-envelope mr-2 text-blue-400"></i> multiservicioscorey@gmail.com
+            </p>
+
+            <div class="flex flex-col md:flex-row gap-4 justify-center items-center">
+                <a href="https://wa.me/584263102348" target="_blank" class="bg-green-600 px-10 py-4 rounded-2xl font-bold text-white hover:bg-green-700 transition flex items-center justify-center gap-2 w-full md:w-auto">
+                    <i class="fa-brands fa-whatsapp text-2xl"></i> WhatsApp
+                </a>
+                
+                <a href="https://instagram.com/multiservicios_corey" target="_blank" class="bg-gradient-to-tr from-yellow-500 via-red-500 to-purple-600 px-10 py-4 rounded-2xl font-bold text-white hover:opacity-90 transition flex items-center justify-center gap-2 w-full md:w-auto">
+                    <i class="fa-brands fa-instagram text-2xl"></i> Instagram
+                </a>
+            </div>
+        </div>
+    </section>
